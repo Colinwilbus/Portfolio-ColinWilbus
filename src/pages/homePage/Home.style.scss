@@ -1,0 +1,23 @@
+.portfolioHome {
+  background-color: #202020;
+  //   width: 1200px;
+  .portfolioHome__carousel {
+    position: relative;
+  }
+  .portfolioHome__navbar {
+    position: absolute;
+    width: 100%;
+    bottom: 90px;
+    z-index: 100;
+    @media screen and(min-width: 768px) {
+      bottom: 160px;
+    }
+    @media screen and(min-width: 992px) {
+      bottom: 90px;
+    }
+  }
+  .portfolioHome__3d {
+  }
+  .portfolioHome__Footer {
+  }
+}

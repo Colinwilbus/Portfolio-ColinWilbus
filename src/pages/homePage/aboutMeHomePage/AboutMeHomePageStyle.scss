@@ -1,0 +1,112 @@
+.aboutMeHomePage {
+  padding: 70px 0 0px;
+  @media screen and(min-width: 768px) {
+    padding: 70px 0 30px;
+  }
+  .aboutMeHomePage_Title {
+    h3 {
+      color: #d9d9d9;
+      position: relative;
+      padding: 15px 10px;
+      font-size: 2rem;
+      letter-spacing: 3px;
+      //   width: max-content;
+      box-shadow: 0 0 50px black;
+      background: linear-gradient(to left, #191919, #323232);
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 10px;
+        background: linear-gradient(to left, #666666, #d9d9d9);
+        bottom: 0;
+        left: 0;
+        box-shadow: 0 0 10px black;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 10px;
+        background: linear-gradient(to left, #666666, #d9d9d9);
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 10px black;
+      }
+    }
+  }
+  .aboutMeHomePage_Content {
+    padding: 30px 0px;
+    @media screen and(min-width: 768px) {
+      padding: 70px 20px 20px;
+    }
+    .aboutMeHomePage_Detail {
+      p {
+        color: #d9d9d9;
+        line-height: 2rem;
+      }
+      .aboutMeHomePage_Btn {
+        background: linear-gradient(to left, #666666, #d9d9d9);
+        width: max-content;
+        padding: 2px;
+        border-radius: 5px;
+        @media screen and(min-width: 768px) {
+          margin-top: 50px;
+        }
+        button {
+          background: linear-gradient(to right, #191919, #323232);
+          color: #d9d9d9;
+          transition: all 0.5s;
+          padding: 10px 30px;
+          border: none;
+
+          &:hover {
+            //   background: #d9d9d9;
+            //   color: #191919;
+            box-shadow: inset 0 0 20px black;
+          }
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+    .aboutMeHomePage_img {
+      //   position: relative;
+      border-radius: 10px;
+      padding: 5px;
+      background: linear-gradient(to top left, #191919, #d9d9d9, #323232);
+      margin-top: 50px;
+      @media screen and(min-width: 768px) {
+        margin-top: 0px;
+      }
+
+      img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 10px;
+        object-position: top;
+        // filter: grayscale(80%) contrast(0.9);
+        transition: all 0.5;
+        box-shadow: 0 0 50px black;
+
+        &:hover {
+          filter: grayscale(0) contrast(1);
+        }
+      }
+      //   &::after {
+      //     content: "";
+      //     position: absolute;
+      //     border-radius: 10px;
+      //     width: 100%;
+      //     height: 100%;
+      //     top: 0;
+      //     left: 0;
+      //     background-color: #32323285;
+      //     z-index: 10;
+      //   }
+    }
+  }
+}
