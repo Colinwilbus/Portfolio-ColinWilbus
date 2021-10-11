@@ -44,7 +44,7 @@
         object-fit: cover;
         transition: all 0.5s;
         border-radius: 10px;
-        filter: grayscale(100%) contrast(1.2);
+        filter: grayscale(70%) contrast(1.2);
         transform: scale(0.9);
       }
       &::after {

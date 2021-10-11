@@ -3,11 +3,22 @@
   position: relative;
   height: 80vh;
   box-shadow: 0 0 50px black;
+  @media screen and (min-width: 992px) {
+    height: 50vh;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 80vh;
+  }
   .carouselhomePage__item {
     height: 80vh;
     width: 100%;
     position: relative;
-
+    @media screen and (min-width: 992px) {
+      height: 50vh;
+    }
+    @media screen and (min-width: 1200px) {
+      height: 80vh;
+    }
     &::after {
       content: "";
 
@@ -41,7 +52,15 @@
       width: 70%;
     }
     @media screen and(min-width: 992px) {
+      width: 65%;
+      padding: 50px;
+    }
+    @media screen and(min-width: 1200px) {
       width: 45%;
+      padding: 50px;
+    }
+    @media screen and(min-width: 2560px) {
+      width: 30%;
       padding: 50px;
     }
     .carouselhomePage__content {

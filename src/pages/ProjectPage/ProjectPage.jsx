@@ -16,6 +16,10 @@ import logoReactRoute from "../../assets/image/logoReactRoute.png";
 import logoReactRedux from "../../assets/image/logoRedux.svg";
 import logoReactSaga from "../../assets/image/logoSaga.png";
 import logoSass from "../../assets/image/logoSass.png";
+import logoCss3Color from "../../assets/image/logoCss3Color.png";
+import logoHtml5Color from "../../assets/image/logoHtml5Color.png";
+import logoJsColor from "../../assets/image/logoJsColor.png";
+import logoReactColor from "../../assets/image/logoReactColor.svg";
 export default function ProjectPage() {
   const [state, setState] = useState({
     nav1: null,
@@ -135,19 +139,19 @@ export default function ProjectPage() {
                   <div className="row">
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoHtml} alt="" />
+                        <img src={logoHtml5Color} alt="" />
                         <p>Html5</p>
                       </div>
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoJs} alt="" />
+                        <img src={logoJsColor} alt="" />
                         <p>JavaScrip</p>
                       </div>
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoCss} alt="" />
+                        <img src={logoCss3Color} alt="" />
                         <p>Css</p>
                       </div>
                     </div>
@@ -177,7 +181,7 @@ export default function ProjectPage() {
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReact} alt="" />
+                        <img src={logoReactColor} alt="" />
                         <p>ReactJs</p>
                       </div>
                     </div>
@@ -236,19 +240,19 @@ export default function ProjectPage() {
                   <div className="row">
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoHtml} alt="" />
+                        <img src={logoHtml5Color} alt="" />
                         <p>Html5</p>
                       </div>
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoJs} alt="" />
+                        <img src={logoJsColor} alt="" />
                         <p>JavaScrip</p>
                       </div>
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoCss} alt="" />
+                        <img src={logoCss3Color} alt="" />
                         <p>Css</p>
                       </div>
                     </div>
@@ -278,7 +282,7 @@ export default function ProjectPage() {
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReact} alt="" />
+                        <img src={logoReactColor} alt="" />
                         <p>ReactJs</p>
                       </div>
                     </div>
@@ -337,19 +341,19 @@ export default function ProjectPage() {
                   <div className="row">
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoHtml} alt="" />
+                        <img src={logoHtml5Color} alt="" />
                         <p>Html5</p>
                       </div>
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoJs} alt="" />
+                        <img src={logoJsColor} alt="" />
                         <p>JavaScrip</p>
                       </div>
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoCss} alt="" />
+                        <img src={logoCss3Color} alt="" />
                         <p>Css</p>
                       </div>
                     </div>
@@ -379,7 +383,7 @@ export default function ProjectPage() {
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReact} alt="" />
+                        <img src={logoReactColor} alt="" />
                         <p>ReactJs</p>
                       </div>
                     </div>
@@ -438,19 +442,19 @@ export default function ProjectPage() {
                   <div className="row">
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoHtml} alt="" />
+                        <img src={logoHtml5Color} alt="" />
                         <p>Html5</p>
                       </div>
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoJs} alt="" />
+                        <img src={logoJsColor} alt="" />
                         <p>JavaScrip</p>
                       </div>
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoCss} alt="" />
+                        <img src={logoCss3Color} alt="" />
                         <p>Css</p>
                       </div>
                     </div>
@@ -480,108 +484,7 @@ export default function ProjectPage() {
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReact} alt="" />
-                        <p>ReactJs</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactRoute} alt="" />
-                        <p>React Router </p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactRedux} alt="" />
-                        <p>Redux </p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactSaga} alt="" />
-                        <p>React Saga </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="projectPage__panelItem">
-              <div className="row">
-                <div className="col-12 col-lg-7">
-                  <div className="projectPage__nameProject">
-                    <h2>Project Booking Ticket Movie Online</h2>
-                  </div>
-                  <div className="projectPage__info">
-                    <h3>Overview</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Neque incidunt itaque atque perspiciatis veniam eaque
-                      repellat explicabo, porro ad aliquid nemo blanditiis, quos
-                      culpa natus aut, quis odit non dolore!
-                    </p>
-                  </div>
-                </div>
-                <div className="col-12 col-lg-5">
-                  <div className="projectPage__btn">
-                    <div className="projectPage__button">
-                      <button className="btn">View Project</button>
-                    </div>
-                    <div className="projectPage__button">
-                      <button className="btn">Github</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="projectPage__TechUse">
-                <h3>Technology Used</h3>
-                <div className="projectPage__TechUseList">
-                  <div className="row">
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoHtml} alt="" />
-                        <p>Html5</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoJs} alt="" />
-                        <p>JavaScrip</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoCss} alt="" />
-                        <p>Css</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoSass} alt="" />
-                        <p>Sass</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoBs4} alt="" />
-                        <p>Bootstrap</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoAntd} alt="" />
-                        <p>Ant Design</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoLodas} alt="" />
-                        <p>Lodash</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReact} alt="" />
+                        <img src={logoReactColor} alt="" />
                         <p>ReactJs</p>
                       </div>
                     </div>

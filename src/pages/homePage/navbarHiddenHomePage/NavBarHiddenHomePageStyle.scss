@@ -9,7 +9,7 @@
   box-shadow: 0 0 20px black;
   display: none;
   padding: 15px 0;
-  @media screen and(min-width: 992px) {
+  @media screen and(min-width: 1200px) {
     border-radius: 0 5px 5px 0;
 
     padding: 5px 5px 5px 0;
@@ -19,13 +19,13 @@
   }
   .navBarHiddenHomePage__content {
     .navbar {
-      @media screen and(min-width: 992px) {
+      @media screen and(min-width: 1200px) {
         padding: 5px 5px 5px 0;
       }
       .navbar-collapse {
         justify-content: center;
         .navbar-nav {
-          @media screen and(min-width: 992px) {
+          @media screen and(min-width: 1200px) {
             flex-direction: column;
           }
           li {
@@ -36,7 +36,7 @@
               border-radius: 5px;
               margin: 0 5px;
               transition: all 0.5s;
-              @media screen and(min-width: 992px) {
+              @media screen and(min-width: 1200px) {
                 padding: 15px 15px 15px 20px;
                 border-radius: 0 5px 5px 0;
                 margin: 5px 0;
@@ -59,7 +59,7 @@
   left: 0;
   display: block;
   animation: activeNavBarHiddenSm 0.3s ease-out forwards;
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1200px) {
     top: 0%;
     // transform: translateY(-50%);
     animation: activeNavBarHidden 0.3s ease-out forwards;
