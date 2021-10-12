@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutMeHomePageStyle.scss";
 import me_1 from "../../../assets/image/me_1.jpg";
 import me_2 from "../../../assets/image/me_2.jpg";
+import { NavLink } from "react-router-dom";
 export default function AboutMeHomePageComponent() {
   return (
     <div className="aboutMeHomePage">
@@ -13,17 +14,16 @@ export default function AboutMeHomePageComponent() {
           <div className="col-12 col-md-6">
             <div className="aboutMeHomePage_Detail">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur tempora, vero temporibus blanditiis dicta eveniet ipsa,
-                id cumque facilis alias quidem commodi dolor eaque nihil
-                suscipit corporis ea, adipisci eius. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Reiciendis impedit assumenda,
-                porro veritatis nulla at, tempore ullam sequi mollitia, quisquam
-                est voluptatibus accusantium illo labore ad repellat ducimus non
-                maiores?
+                I am looking for a chanllenging position that I can apply my
+                knowledge and skills in the field of coding for professional
+                growth. I want to achieve high career growth through a
+                continuous learning process, keep my self dynamic, visonary and
+                competitive with the changing scenario of the world.
               </p>
               <div className="aboutMeHomePage_Btn">
-                <button className="btn">More Info...</button>
+                <NavLink className="btn" to="/about">
+                  More Info...
+                </NavLink>
               </div>
             </div>
           </div>

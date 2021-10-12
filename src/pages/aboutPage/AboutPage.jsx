@@ -30,13 +30,15 @@ export default function AboutPage() {
             <div className="aboutPage__detail">
               <p>Hi, I am Viet Binh</p>
               <h3>A Front End Developer</h3>
-              <p>I'm live on Ho Chi Minh City, Viet Nam.</p>
+              <p>Birthday: 02-06-1995.</p>
+              <p>I'm living in Ho Chi Minh City, Viet Nam.</p>
               <div className="aboutPage__detailContent">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Aspernatur a, adipisci aperiam, est porro exercitationem
-                  mollitia magni amet laborum nemo vero delectus perferendis
-                  illo consectetur! Dolorem numquam vel ipsa dolorum?
+                  I graduated from Tran Dai Nghia University in 2020 with a
+                  major in Information Technology. I have worked for 7 years
+                  with different professions starting since 2014. In the future
+                  I will add more knowledge about foreign languages ​​such as
+                  ReactNative, NodeJs, ..etc
                 </p>
               </div>
             </div>

@@ -4,14 +4,10 @@ import Slider from "react-slick";
 import pj1 from "../../assets/image/pj1.png";
 import pj2 from "../../assets/image/pj2.png";
 import pj3 from "../../assets/image/pj3.png";
-import pj4 from "../../assets/image/pj4.png";
-import logoHtml from "../../assets/image/logoHtml.png";
-import logoJs from "../../assets/image/LogoJs.png";
+import pj5 from "../../assets/image/pj5.png";
 import logoLodas from "../../assets/image/logoLodash.svg";
 import logoAntd from "../../assets/image/logoAntd.svg";
 import logoBs4 from "../../assets/image/logoBs4.png";
-import logoCss from "../../assets/image/logoCss.png";
-import logoReact from "../../assets/image/logoReact.png";
 import logoReactRoute from "../../assets/image/logoReactRoute.png";
 import logoReactRedux from "../../assets/image/logoRedux.svg";
 import logoReactSaga from "../../assets/image/logoSaga.png";
@@ -20,6 +16,7 @@ import logoCss3Color from "../../assets/image/logoCss3Color.png";
 import logoHtml5Color from "../../assets/image/logoHtml5Color.png";
 import logoJsColor from "../../assets/image/logoJsColor.png";
 import logoReactColor from "../../assets/image/logoReactColor.svg";
+import logoSocketIo from "../../assets/image/logoSocketIo.svg";
 export default function ProjectPage() {
   const [state, setState] = useState({
     nav1: null,
@@ -96,7 +93,7 @@ export default function ProjectPage() {
             </div>
             <div className="projectPage__item">
               <div className="projectPage__img">
-                <img src={pj4} alt="" />
+                <img src={pj5} alt="" />
               </div>
             </div>
           </Slider>
@@ -110,25 +107,37 @@ export default function ProjectPage() {
               <div className="row">
                 <div className="col-12 col-lg-7">
                   <div className="projectPage__nameProject">
-                    <h2>Project Booking Ticket Movie Online</h2>
+                    <h2>BOOKING TICKET WEBSITE</h2>
                   </div>
                   <div className="projectPage__info">
                     <h3>Overview</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Neque incidunt itaque atque perspiciatis veniam eaque
-                      repellat explicabo, porro ad aliquid nemo blanditiis, quos
-                      culpa natus aut, quis odit non dolore!
+                      The Booking Ticket project supports users to book movie
+                      tickets online quickly and conveniently before going to
+                      the cinema. This project includes management and changing
+                      data.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-lg-5">
                   <div className="projectPage__btn">
                     <div className="projectPage__button">
-                      <button className="btn">View Project</button>
+                      <a
+                        className="btn"
+                        href="https://b-movie.vercel.app/"
+                        target="_blank"
+                      >
+                        View Project
+                      </a>
                     </div>
                     <div className="projectPage__button">
-                      <button className="btn">Github</button>
+                      <a
+                        className="btn"
+                        href="https://github.com/Colinwilbus/Project-TheMovie-Booking-React.git"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -211,25 +220,37 @@ export default function ProjectPage() {
               <div className="row">
                 <div className="col-12 col-lg-7">
                   <div className="projectPage__nameProject">
-                    <h2>Project Booking Ticket Movie Online</h2>
+                    <h2>RESTAURANT WEBSITE</h2>
                   </div>
                   <div className="projectPage__info">
                     <h3>Overview</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Neque incidunt itaque atque perspiciatis veniam eaque
-                      repellat explicabo, porro ad aliquid nemo blanditiis, quos
-                      culpa natus aut, quis odit non dolore!
+                      Restaurent website is used to introduce the restaurant and
+                      the products which are followed each price segment of
+                      restaurant. Users can choose food and make a reservation
+                      before coming to the restaurant.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-lg-5">
                   <div className="projectPage__btn">
                     <div className="projectPage__button">
-                      <button className="btn">View Project</button>
+                      <a
+                        className="btn"
+                        href="https://restaurant-ochre-nine.vercel.app/"
+                        target="_blank"
+                      >
+                        View Project
+                      </a>
                     </div>
                     <div className="projectPage__button">
-                      <button className="btn">Github</button>
+                      <a
+                        className="btn"
+                        href="https://github.com/Colinwilbus/BCCT01-BTTH-Nhom--NguyenVietBinh--PhamQuocKhanh.git"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -256,52 +277,11 @@ export default function ProjectPage() {
                         <p>Css</p>
                       </div>
                     </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoSass} alt="" />
-                        <p>Sass</p>
-                      </div>
-                    </div>
+
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
                         <img src={logoBs4} alt="" />
                         <p>Bootstrap</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoAntd} alt="" />
-                        <p>Ant Design</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoLodas} alt="" />
-                        <p>Lodash</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactColor} alt="" />
-                        <p>ReactJs</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactRoute} alt="" />
-                        <p>React Router </p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactRedux} alt="" />
-                        <p>Redux </p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactSaga} alt="" />
-                        <p>React Saga </p>
                       </div>
                     </div>
                   </div>
@@ -312,25 +292,36 @@ export default function ProjectPage() {
               <div className="row">
                 <div className="col-12 col-lg-7">
                   <div className="projectPage__nameProject">
-                    <h2>Project Booking Ticket Movie Online</h2>
+                    <h2>HOUSING WEBSITE</h2>
                   </div>
                   <div className="projectPage__info">
                     <h3>Overview</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Neque incidunt itaque atque perspiciatis veniam eaque
-                      repellat explicabo, porro ad aliquid nemo blanditiis, quos
-                      culpa natus aut, quis odit non dolore!
+                      This website is about solving housing problems. User can
+                      view and learn from the outside to the inside of a house
+                      before going to the actual place.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-lg-5">
                   <div className="projectPage__btn">
                     <div className="projectPage__button">
-                      <button className="btn">View Project</button>
+                      <a
+                        className="btn"
+                        href="https://housing-lac.vercel.app/"
+                        target="_blank"
+                      >
+                        View Project
+                      </a>
                     </div>
                     <div className="projectPage__button">
-                      <button className="btn">Github</button>
+                      <a
+                        className="btn"
+                        href="https://github.com/Colinwilbus/BCCT01-housing-NguyenVietBinh.git"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -345,64 +336,18 @@ export default function ProjectPage() {
                         <p>Html5</p>
                       </div>
                     </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoJsColor} alt="" />
-                        <p>JavaScrip</p>
-                      </div>
-                    </div>
+
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
                         <img src={logoCss3Color} alt="" />
                         <p>Css</p>
                       </div>
                     </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoSass} alt="" />
-                        <p>Sass</p>
-                      </div>
-                    </div>
+
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
                         <img src={logoBs4} alt="" />
                         <p>Bootstrap</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoAntd} alt="" />
-                        <p>Ant Design</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoLodas} alt="" />
-                        <p>Lodash</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactColor} alt="" />
-                        <p>ReactJs</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactRoute} alt="" />
-                        <p>React Router </p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactRedux} alt="" />
-                        <p>Redux </p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactSaga} alt="" />
-                        <p>React Saga </p>
                       </div>
                     </div>
                   </div>
@@ -413,25 +358,36 @@ export default function ProjectPage() {
               <div className="row">
                 <div className="col-12 col-lg-7">
                   <div className="projectPage__nameProject">
-                    <h2>Project Booking Ticket Movie Online</h2>
+                    <h2>APP-CHAT WEBISTE</h2>
                   </div>
                   <div className="projectPage__info">
                     <h3>Overview</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Neque incidunt itaque atque perspiciatis veniam eaque
-                      repellat explicabo, porro ad aliquid nemo blanditiis, quos
-                      culpa natus aut, quis odit non dolore!
+                      Online messaging app. User can create rooms for others to
+                      join. The application supports sending the user's current
+                      location.
                     </p>
                   </div>
                 </div>
                 <div className="col-12 col-lg-5">
                   <div className="projectPage__btn">
                     <div className="projectPage__button">
-                      <button className="btn">View Project</button>
+                      <a
+                        className="btn"
+                        href="https://app-chat-cw.vercel.app/"
+                        target="_blank"
+                      >
+                        View Project
+                      </a>
                     </div>
                     <div className="projectPage__button">
-                      <button className="btn">Github</button>
+                      <a
+                        className="btn"
+                        href="https://github.com/Colinwilbus/App-Chat-Cw.git"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -458,12 +414,7 @@ export default function ProjectPage() {
                         <p>Css</p>
                       </div>
                     </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoSass} alt="" />
-                        <p>Sass</p>
-                      </div>
-                    </div>
+
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
                         <img src={logoBs4} alt="" />
@@ -472,38 +423,8 @@ export default function ProjectPage() {
                     </div>
                     <div className="col-4 col-lg-2 projectPage__TechUseItem">
                       <div className="projectPage__TechUseItemDetail">
-                        <img src={logoAntd} alt="" />
-                        <p>Ant Design</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoLodas} alt="" />
-                        <p>Lodash</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactColor} alt="" />
-                        <p>ReactJs</p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactRoute} alt="" />
-                        <p>React Router </p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactRedux} alt="" />
-                        <p>Redux </p>
-                      </div>
-                    </div>
-                    <div className="col-4 col-lg-2 projectPage__TechUseItem">
-                      <div className="projectPage__TechUseItemDetail">
-                        <img src={logoReactSaga} alt="" />
-                        <p>React Saga </p>
+                        <img src={logoSocketIo} alt="" />
+                        <p>Socket.Io</p>
                       </div>
                     </div>
                   </div>

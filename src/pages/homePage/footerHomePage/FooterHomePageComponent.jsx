@@ -1,6 +1,7 @@
 import React from "react";
 import "./FooterHomePageStyle.scss";
 import bgSocial from "../../../assets/image/bgftSocial.jpg";
+import { NavLink } from "react-router-dom";
 export default function FooterHomePageComponent() {
   return (
     <div className="footerHomePage">
@@ -12,24 +13,24 @@ export default function FooterHomePageComponent() {
               <div className="footerHomePage__link">
                 <ul>
                   <li>
-                    <a href="#">
+                    <NavLink to="/home">
                       <span>HOME</span>
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#">
+                    <NavLink to="/about">
                       <span>ABOUT</span>
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#">
+                    <NavLink to="/project">
                       <span>PROJECT</span>
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a href="#">
+                    <NavLink to="/contact">
                       <span>CONTACT</span>
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </div>
@@ -39,22 +40,25 @@ export default function FooterHomePageComponent() {
               <div className="footerHomePage__social">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a
+                      href="https://www.facebook.com/wilbus.colin/"
+                      target="_blank"
+                    >
                       <i class="fab fa-facebook-square"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://github.com/Colinwilbus" target="_blank">
                       <i class="fab fa-github-square"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://github.com/Colinwilbus" target="_blank">
                       <i class="fab fa-pinterest-square"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://github.com/Colinwilbus" target="_blank">
                       <i class="fab fa-steam-square"></i>
                     </a>
                   </li>
