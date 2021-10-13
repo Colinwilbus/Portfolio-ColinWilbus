@@ -172,7 +172,7 @@ export default function AchievementAboutPage() {
                     <p>React.Saga</p>
                   </div>
                 </div>
-                <div className="col-6 col-md-3 col-lg-2">
+                {/* <div className="col-6 col-md-3 col-lg-2">
                   <div className="achievementAboutPage__img">
                     <img src={logoSocketIo} alt="" />
                     <p>Socket.io</p>
@@ -189,7 +189,7 @@ export default function AchievementAboutPage() {
                     <img src={logoSql} alt="" />
                     <p>My SQL</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-6 col-md-3 col-lg-2">
                   <div className="achievementAboutPage__img">
                     <img src={logoLR} alt="" />
