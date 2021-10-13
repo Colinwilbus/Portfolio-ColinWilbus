@@ -374,7 +374,7 @@ export default function ProjectPage() {
                     <div className="projectPage__button">
                       <a
                         className="btn"
-                        href="https://app-chat-cw.vercel.app/"
+                        href="https://app-chat-cw.herokuapp.com/"
                         target="_blank"
                       >
                         View Project

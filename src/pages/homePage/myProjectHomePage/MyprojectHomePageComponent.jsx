@@ -171,7 +171,7 @@ export default function MyprojectHomePageComponent() {
                         <div className="myprojectHomePage__button">
                           <a
                             className="btn"
-                            href="https://app-chat-cw.vercel.app/"
+                            href="https://app-chat-cw.herokuapp.com/"
                             target="_blank"
                           >
                             Go to Site
