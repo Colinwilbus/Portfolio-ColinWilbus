@@ -2,8 +2,7 @@ import React from "react";
 import "./AboutPageStyle.scss";
 import Slider from "react-slick";
 import me_6 from "../../assets/image/me_6.JPG";
-import me_1 from "../../assets/image/me_1.jpg";
-import me_3 from "../../assets/image/me_3.jpg";
+import me_10 from "../../assets/image/me_10.JPG";
 import me_5 from "../../assets/image/me_5.jpg";
 import avt from "../../assets/image/avt.jpg";
 import AchievementAboutPage from "./achievementAboutPage/AchievementAboutPage";
@@ -34,11 +33,10 @@ export default function AboutPage() {
               <p>I'm living in Ho Chi Minh City, Viet Nam.</p>
               <div className="aboutPage__detailContent">
                 <p>
-                  I graduated from Tran Dai Nghia University in 2020 with a
-                  major in Information Technology. I have worked for 7 years
-                  with different professions starting since 2014. In the future
-                  I will add more knowledge about foreign languages ​​such as
-                  ReactNative, NodeJs, ..etc
+                  I graduated from Tran Dai Nghia University in 2020 with
+                  Information Technology Enginering degree . I have worked for 3
+                  years in computer field. In the future I intend to study more
+                  English , ReactNative , NodeJs,..etc to enhance myself
                 </p>
               </div>
             </div>
@@ -47,7 +45,7 @@ export default function AboutPage() {
             <div className="aboutPage__img">
               <Slider {...settings}>
                 <div className="carouselhomePage__item">
-                  <img src={me_3} alt="" style={{ objectPosition: "top" }} />
+                  <img src={me_10} alt="" style={{ objectPosition: "top" }} />
                 </div>
                 <div className="carouselhomePage__item">
                   <img src={me_5} alt="" />

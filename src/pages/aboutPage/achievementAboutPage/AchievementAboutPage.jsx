@@ -61,9 +61,9 @@ export default function AchievementAboutPage() {
                     <div>
                       <p>Citigo Software</p>
                       <p>
-                        Customer Service ( Support customers to use software,
-                        install and repair equipment, design HTML, CSS templates
-                        )
+                        Technical support specialist ( Support customers to use
+                        software, install and repair equipment, design HTML, CSS
+                        templates )
                       </p>
                     </div>
                   }
