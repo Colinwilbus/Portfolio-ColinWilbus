@@ -39,9 +39,13 @@ export default function CarouselHomePageComponent(props) {
 
                   <p>Ho Chi Minh City</p>
                   <div className="carouselhomePage__btn">
-                    <button type="button" className="btn">
+                    <a
+                      className="btn"
+                      href="https://drive.google.com/file/d/1wk7WXgrQbHDpVgpP4x42gZF66NqCtkIM/view?usp=sharing"
+                      target="_blank"
+                    >
                       Download my CV
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
